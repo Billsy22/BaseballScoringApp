@@ -15,5 +15,4 @@ struct Player: Codable {
     let firstName: String
     let lastName: String
     let number: Int
-    var position: Int
 }

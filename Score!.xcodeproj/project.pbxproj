@@ -18,6 +18,7 @@
 		16B073A720CC24F600B40287 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B073A620CC24F600B40287 /* Player.swift */; };
 		16B073A920CC25EB00B40287 /* Hit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B073A820CC25EB00B40287 /* Hit.swift */; };
 		16B073AB20CC267900B40287 /* OnBase .swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B073AA20CC267900B40287 /* OnBase .swift */; };
+		16B073AD20CC297600B40287 /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B073AC20CC297600B40287 /* TeamController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		16B073A620CC24F600B40287 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		16B073A820CC25EB00B40287 /* Hit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hit.swift; sourceTree = "<group>"; };
 		16B073AA20CC267900B40287 /* OnBase .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnBase .swift"; sourceTree = "<group>"; };
+		16B073AC20CC297600B40287 /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		16B0739B20CC201200B40287 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				16B073AC20CC297600B40287 /* TeamController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B073AB20CC267900B40287 /* OnBase .swift in Sources */,
+				16B073AD20CC297600B40287 /* TeamController.swift in Sources */,
 				16B073A920CC25EB00B40287 /* Hit.swift in Sources */,
 				16B073A320CC239100B40287 /* Out.swift in Sources */,
 				16B0738820CC1FFB00B40287 /* AppDelegate.swift in Sources */,

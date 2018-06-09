@@ -8,8 +8,17 @@
 
 import Foundation
 
-struct Team: Codable {
+struct Team: Codable, Equatable {
     
     // MARK: -  Properties
-    let players: [Player]
+    
+    let teamName: String
+    var players: [Player?]
+    
+    // MARK: -  Equatable Protocol
+    
+    static func == (lhs: Team, rhs: Team) -> Bool {
+        return lhs.teamName == rhs.teamName &&
+        lhs.players == rhs.players
+    }
 }
